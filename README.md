@@ -54,6 +54,9 @@ For example, case "Mining" reactension
 
 Reacram "test" collects block going down.
 
+# Video
+http://www.youtube.com/watch?v=73sOQiwQ40I
+
 # For developers
 
 You can make a reactension in PHP.  
