@@ -2,11 +2,11 @@
 
 Make your reactor programmable
 
-Reacram(REACtor + progRAM) is a programmable reactor.
-Reacram can run the special program "Reactension"(REACram + exTENSION)
-You can load reactension you like into your reacram freely.
-For example, farming, mining, building and so on...
-Reactension can be written in PHP. So you can make it easily.
+Reacram(REACtor + progRAM) is a programmable reactor.  
+Reacram can run the special program "Reactension"(REACram + exTENSION)  
+You can load reactension you like into your reacram freely.  
+For example, farming, mining, building and so on...  
+Reactension can be written in PHP. So you can make it easily.  
 
 # Installation
 1.  Drop it into your /plugins folder.
@@ -56,16 +56,17 @@ Reacram "test" collects block going down.
 
 # For developers
 
-You can make a reactension in PHP.
-The rule you must follow:
-1. Filename should be the same as the classname. 
-ex) classname: TestReactension => filename: TestReactension.php
-2. Your reactension class must inherit from "Reactension" class.
-3. Your reactension class must implement two function: public function init() and public function run()
-init() is the function which is called at the beginning. You mustn't implement __construct!
-run() is the main function which is called when your reacram is executed.
+You can make a reactension in PHP.  
+The rule you must follow:  
 
-Reactension sample
+1. Filename should be the same as the classname.   
+ex) classname: TestReactension => filename: TestReactension.php  
+2. Your reactension class must inherit from "Reactension" class.  
+3. Your reactension class must implement two function: public function init() and public function run()  
+init() is the function which is called at the beginning. You mustn't implement __construct!  
+run() is the main function which is called when your reacram is executed.  
+
+## Reactension sample
 
 ```php
 
@@ -84,7 +85,7 @@ class ReactensionName extends Reactension
 ```
 ----
 
-Functions you can use in Reactension
+## Functions you can use in Reactension
 
 | Function | Description |
 | :-----: | :-------: |
