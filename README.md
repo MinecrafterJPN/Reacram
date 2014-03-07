@@ -20,6 +20,7 @@ Reactension can be written in PHP. So you can make it easily.
 | Name | URL |
 | :-----: | :-------: |
 | Mining | https://dl.dropboxusercontent.com/s/3tc2q3wbexybsh1/Mining.php |
+| Farming | https://dl.dropboxusercontent.com/s/qzxtkuvjge7598k/Farming.php |
 
 # Chat commands
 
