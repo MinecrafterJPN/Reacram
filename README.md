@@ -69,12 +69,15 @@ ex) classname: TestReactension => filename: TestReactension.php
 3. Your reactension class must implement two function: public function init() and public function run()  
 init() is the function which is called at the beginning. You mustn't implement __construct!  
 run() is the main function which is called when your reacram is executed.  
+4. Namespace on your class and Main.php should be the same.
 
 ## Reactension sample
 
 ```php
 
 <?php
+
+namespace Reacram\Core;
 
 class ReactensionName extends Reactension
 {
